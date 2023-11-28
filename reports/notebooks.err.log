@@ -24,6 +24,8 @@ from IPython.display import IFrame, display, HTML
 import chart_studio.plotly as py
 import plotly.graph_objects as go
 from dash import Dash, dcc, html, Input, Output
+import plotly.io as pio
+pio.renderers.default = 'notebook'
 ------------------
 
 
